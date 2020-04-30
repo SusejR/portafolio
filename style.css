@@ -42,11 +42,14 @@ h1 {
   }
 
   .myInfo {
-    padding-left: 20%;
+    padding-left: 15%;
     padding-bottom: 15%;
+    padding-top: 10%;
   }
   .fabFooter {
-  padding-right: 20%;
+    display: flex;
+    justify-content: center;
+   
   }
   .mail {
     padding-bottom: 10%;
@@ -64,6 +67,7 @@ h1 {
     text-align: center;
   }
  
+ 
 }
 
 .myName {
@@ -74,6 +78,7 @@ h1 {
   font-size: 50px;
   color: rgb(130, 112, 235);
   padding-left: 8%;
+  
 }
 .contact {
   color: rgb(130, 112, 235);
@@ -100,9 +105,7 @@ h1 {
   .skills {
     color: rgb(130, 112, 235);
   }
-  .mail {
-    padding-left: 8%;
-  }
+ 
   .fabSkills {
     font-size: 50px;
     color: rgb(130, 112, 235);
@@ -111,6 +114,14 @@ h1 {
   .me {
     position: relative;
   }
+  .infoDiv {
+    margin: 5%;
+  }
+  .navBar {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
 /* Aqui terminan estilos para tamaño celular */
 /* Aqui comienzan los estilos para tarjeta de los proyectos */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
