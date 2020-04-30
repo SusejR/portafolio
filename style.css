@@ -121,6 +121,9 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
   }
+  .myInfo {
+    padding-top: 10%;
+  }
   
 /* Aqui terminan estilos para tamaño celular */
 /* Aqui comienzan los estilos para tarjeta de los proyectos */
