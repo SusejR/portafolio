@@ -18,15 +18,16 @@ h1 {
     padding-right: 20%;
     padding-top: 5%;
 }
-.myInfo {
-   padding-top: 15%;
-  
-  
-}
+
 .cards {
     margin-top: 5%;
     justify-content: center;
     align-items: center;
+}
+.myProjects {
+  padding-left: 9%;
+  color:rgb(130, 112, 235);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* estilos para tamaño celular */
 @media (max-width:480px){
@@ -36,25 +37,29 @@ h1 {
     width:100%;
     padding-top: 120%;
   }
-  .fab {
-    padding-right: 40%;  
+  .imgLogo {
+   padding-right: 40%;
   }
+
   .myInfo {
     padding-left: 20%;
     padding-bottom: 15%;
   }
+  .divFooter {
+    display: flex;
+    justify-content: center;
+  }
  
 }
+
 .myName {
   color:rgb(130, 112, 235);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.fab {
-  font-size: 100px;
+.fabFooter {
+  font-size: 70px;
   color: rgb(130, 112, 235);
-  padding-left: 10%;
-  justify-content: center;
-  align-items: center;
+  padding-left: 8%;
 }
 .contact {
   color: rgb(130, 112, 235);
@@ -67,12 +72,25 @@ h1 {
 .btn-cv {
   color: rgb(130, 112, 235);
 }
+.projectsBtn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%
+}
+.pProjects {
+  font-size: smaller;
+  text-align: start;
+  padding-left: 2%;
 
-
+  }
+  .skills {
+    color: rgb(130, 112, 235);
+  }
+  
 /* Aqui terminan estilos para tamaño celular */
 /* Aqui comienzan los estilos para tarjeta de los proyectos */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
-.snip1585 {
+.projects {
   background-color: white;
   color: #fff;
   display: inline-block;
@@ -89,18 +107,18 @@ h1 {
 
 }
 
-.snip1585 * {
+.projects * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
 }
 
-.snip1585:before,
-.snip1585:after {
+.projects:before,
+.projects:after {
   background-color: rgba(130, 112, 235, 0.5);
-  border-top: 50px solid rgba(130, 112, 235, 0.5);
-  border-bottom: 50px solid rgba(130, 112, 235, 0.5);
+  border-top: 50px  rgba(130, 112, 235, 0.5);
+  border-bottom: 50px  rgba(130, 112, 235, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -113,23 +131,23 @@ h1 {
   opacity: 0;
 }
 
-.snip1585:before {
+.projects:before {
   -webkit-transform: scaleY(2);
   transform: scaleY(2);
 }
 
-.snip1585:after {
+.projects:after {
   -webkit-transform: scaleY(2);
   transform: scaleY(2);
 }
 
-.snip1585 img {
+.projects img {
   vertical-align: top;
   max-width: 100%;
   backface-visibility: hidden;
 }
 
-.snip1585 figcaption {
+.projects figcaption {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -147,7 +165,7 @@ h1 {
   transition-delay: 0s;
 }
 
-.snip1585 h3 {
+.projects h3 {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -155,13 +173,13 @@ h1 {
   text-transform: uppercase;
 }
 
-.snip1585 h3 span {
+.projects h3 span {
   display: block;
   font-weight: 700;
 }
 
-.snip1585 a {
-  position: absolute;
+.projects a {
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -169,22 +187,22 @@ h1 {
   z-index: 3;
 }
 
-.snip1585:hover > img,
-.snip1585.hover > img {
+.projects:hover > img,
+.projects.hover > img {
   opacity: 0.7;
 }
 
-.snip1585:hover:before,
-.snip1585.hover:before,
-.snip1585:hover:after,
-.snip1585.hover:after {
+.projects:hover:before,
+.projects.hover:before,
+.projects:hover:after,
+.projects.hover:after {
   -webkit-transform: scale(1);
   transform: scale(1);
   opacity: 1;
 }
 
-.snip1585:hover figcaption,
-.snip1585.hover figcaption {
+.projects:hover figcaption,
+.projects.hover figcaption {
   opacity: 1;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
