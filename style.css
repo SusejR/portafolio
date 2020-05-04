@@ -12,11 +12,11 @@ h1 {
                 rgb(130, 112, 235)
                 
     );
-    -webkit-background-clip: text;
+    
 }
 .img {
-    padding-right: 20%;
-    padding-top: 5%;
+    padding-right: 15%;
+  
 }
 
 .cards {
@@ -123,6 +123,9 @@ h1 {
   }
   .myInfo {
     padding-top: 10%;
+  }
+  #footer {
+    display:flex;
   }
   
 /* Aqui terminan estilos para tamaño celular */
@@ -246,19 +249,14 @@ h1 {
   transition-delay: 0.1s;
 }
 /* Aqui terminan los estilos para tarjetas de los proyectos */
-/* Animación con keyframe llamada "latidos" */
-@keyframes latidos {
-  from { transform: none; }
-  50% { transform: scale(1.4); }
-  to { transform: none; }
-}
+
+
 /* En la clase corazon vamos a llamar latidos en la animación  */
 .corazon {
 display: inline-block;
-font-size: 60px;
+font-size: 50px;
 text-shadow: 0 0 10px #222,1px 1px  0 #450505;
 color: #8270eb;
-animation: latidos .5s infinite;
 transform-origin: center;
 padding-left: 15%;
 }
@@ -297,7 +295,7 @@ p {
 .letter {
   display: inline-block;
   position: relative;
-  float: left;
+  /* float: left; */
   transform: translateZ(25px);
   transform-origin: 50% 50% 25px;
 }
